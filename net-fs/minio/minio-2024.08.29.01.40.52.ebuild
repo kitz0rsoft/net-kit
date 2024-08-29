@@ -888,8 +888,8 @@ EGO_SKIP_TIDY=1
 DESCRIPTION="An Amazon S3 compatible object storage server"
 HOMEPAGE="https://min.io/ https://github.com/minio/minio"
 SRC_URI="
-https://api.github.com/repos/minio/minio/tarball/RELEASE.2024-08-26T15-33-07Z -> minio-RELEASE.2024-08-26T15-33-07Z.tar.gz
-https://regen.mordor/4a/e1/dc/4ae1dcbbac7769f8c22b3b4053a079c966ff96d4d363a420d4351ad5221b21e22019f5dd2c86b989b27efef38a6f13705af091361d0a07789e950cd64827d10b -> minio-2024.08.26.15.33.07-funtoo-go-bundle-45ef0fc97486745c2dbbb169b327ae17515d350cbae611866778796bfab9aed6697a5816c7dd698027b420690b743456cb5edf901f4694e582eee560227596d5.tar.gz"
+https://api.github.com/repos/minio/minio/tarball/RELEASE.2024-08-29T01-40-52Z -> minio-RELEASE.2024-08-29T01-40-52Z.tar.gz
+https://regen.mordor/18/98/a2/1898a238c378b2b3a5c1c093a93c12e0a922511d9286fe29deea46dc70ebd00d4e0a91ad9704f3932d0ac3771adb626ab477dc5eceaec791cbf309a94904087d -> minio-2024.08.29.01.40.52-funtoo-go-bundle-45ef0fc97486745c2dbbb169b327ae17515d350cbae611866778796bfab9aed6697a5816c7dd698027b420690b743456cb5edf901f4694e582eee560227596d5.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}
