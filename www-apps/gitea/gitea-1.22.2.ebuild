@@ -8,7 +8,7 @@ DESCRIPTION="A painless self-hosted Git service"
 HOMEPAGE="https://gitea.com https://github.com/go-gitea/gitea"
 
 SRC_URI="https://github.com/go-gitea/gitea/releases/download/v1.22.2/gitea-src-1.22.2.tar.gz -> gitea-src-1.22.2.tar.gz
-https://regen.mordor/d6/f5/c6/d6f5c6d2b9ea8d955955d3cbc1fd0bbb9a1e1779214beecd9705ec5411da11933b3fa23f2c5adaf6f69b68f536276c6cb953a2e411b13f0ff33639e2b7a8283b -> gitea-1.22.2-funtoo-go-bundle-96f6f18b33941c004463c159d250ff9bb8d82b566cecbe1bb6e5914b608ae2389a326257662072467715bfa560e2e7a1c453de4f1fcf669af07d70f7c2c12536.tar.gz"
+https://regen.mordor/a2/e1/93/a2e193d516a64e31994ffce60fb069408f61006894da66935c9a71da40add4f290de2c3612206a7ee61222a3888eb4cab23427e260f42817fbc023ecd8524914 -> gitea-1.22.2-funtoo-go-bundle-96f6f18b33941c004463c159d250ff9bb8d82b566cecbe1bb6e5914b608ae2389a326257662072467715bfa560e2e7a1c453de4f1fcf669af07d70f7c2c12536.tar.gz"
 KEYWORDS="*"
 IUSE="systemd"
 
