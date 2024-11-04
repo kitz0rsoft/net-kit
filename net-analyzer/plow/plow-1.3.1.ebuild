@@ -89,7 +89,7 @@ go-module_set_globals
 DESCRIPTION="HTTP(S) benchmarking tool, written in Golang"
 HOMEPAGE="https://github.com/six-ddc/plow"
 SRC_URI="https://github.com/six-ddc/plow/tarball/343b7510ccfa477d9c0f3d9aeeaa0834e118c44a -> plow-1.3.1-343b751.tar.gz
-https://distfiles.macaronios.org/d4/ea/b0/d4eab0f2124b55095ad47ff7c05d3fa1e9886a84b79711304dfc3d08d2cc9b52466967ab41ac96de5fbc2ce2ffad5587dd44f0e64479ee0215c537195bda9593 -> plow-1.3.1-funtoo-go-bundle-ef98e19609fc167c86d1edeb2d110699ed55edb45c39051c1d86e90461ef98431dc07a1ee6251a95ccafd679f4e63717a9e8980debc3828878738d46357aaa4c.tar.gz"
+https://regen.mordor/d4/ea/b0/d4eab0f2124b55095ad47ff7c05d3fa1e9886a84b79711304dfc3d08d2cc9b52466967ab41ac96de5fbc2ce2ffad5587dd44f0e64479ee0215c537195bda9593 -> plow-1.3.1-funtoo-go-bundle-ef98e19609fc167c86d1edeb2d110699ed55edb45c39051c1d86e90461ef98431dc07a1ee6251a95ccafd679f4e63717a9e8980debc3828878738d46357aaa4c.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
