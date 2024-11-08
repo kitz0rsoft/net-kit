@@ -210,8 +210,8 @@ EGO_SUM=(
 	"github.com/godbus/dbus/v5 v5.0.4/go.mod"
 	"github.com/gogo/protobuf v1.3.2"
 	"github.com/gogo/protobuf v1.3.2/go.mod"
-	"github.com/golang-jwt/jwt/v4 v4.5.0"
-	"github.com/golang-jwt/jwt/v4 v4.5.0/go.mod"
+	"github.com/golang-jwt/jwt/v4 v4.5.1"
+	"github.com/golang-jwt/jwt/v4 v4.5.1/go.mod"
 	"github.com/golang-jwt/jwt/v5 v5.2.1"
 	"github.com/golang-jwt/jwt/v5 v5.2.1/go.mod"
 	"github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod"
@@ -407,8 +407,8 @@ EGO_SUM=(
 	"github.com/minio/cli v1.24.2/go.mod"
 	"github.com/minio/colorjson v1.0.8"
 	"github.com/minio/colorjson v1.0.8/go.mod"
-	"github.com/minio/console v1.7.1"
-	"github.com/minio/console v1.7.1/go.mod"
+	"github.com/minio/console v1.7.3"
+	"github.com/minio/console v1.7.3/go.mod"
 	"github.com/minio/csvparser v1.0.0"
 	"github.com/minio/csvparser v1.0.0/go.mod"
 	"github.com/minio/dnscache v0.1.1"
@@ -435,8 +435,8 @@ EGO_SUM=(
 	"github.com/minio/minio-go/v7 v7.0.77/go.mod"
 	"github.com/minio/mux v1.9.0"
 	"github.com/minio/mux v1.9.0/go.mod"
-	"github.com/minio/pkg/v3 v3.0.20"
-	"github.com/minio/pkg/v3 v3.0.20/go.mod"
+	"github.com/minio/pkg/v3 v3.0.22"
+	"github.com/minio/pkg/v3 v3.0.22/go.mod"
 	"github.com/minio/selfupdate v0.6.0"
 	"github.com/minio/selfupdate v0.6.0/go.mod"
 	"github.com/minio/sha256-simd v0.1.1/go.mod"
@@ -873,8 +873,8 @@ EGO_SKIP_TIDY=1
 DESCRIPTION="An Amazon S3 compatible object storage server"
 HOMEPAGE="https://min.io/ https://github.com/minio/minio"
 SRC_URI="
-https://api.github.com/repos/minio/minio/tarball/RELEASE.2024-10-29T16-01-48Z -> minio-RELEASE.2024-10-29T16-01-48Z.tar.gz
-https://regen.mordor/c7/70/0b/c7700b3926a396dd135f04d8ea3d8f4228e4aee43e80c3c28d5fe98fe3ceb5a7744f1b8ba94e15e002ca18d768b1eb4fbbc341f4b51412899b72dae989693be1 -> minio-2024.10.29.16.01.48-funtoo-go-bundle-9e1e2dc5e950c40f1ba3a50bb979fc88ad0824e23898da19d400eb312add8a2a910cb992966f8ee963ea7465dd1cb53820c4645a107b7a2700083564febe101f.tar.gz"
+https://api.github.com/repos/minio/minio/tarball/RELEASE.2024-11-07T00-52-20Z -> minio-RELEASE.2024-11-07T00-52-20Z.tar.gz
+https://regen.mordor/d0/c7/c8/d0c7c8a555e04e4103626679146aeb079a82de8f458d42639a2ca1485e0c2d4c00065375643e985f05513aa47f2ceb1824b11f85f64e25c7d8ba7f9c764dec21 -> minio-2024.11.07.00.52.20-funtoo-go-bundle-f0ee99402cfb7c551f5ae60740b4ec27b74e6b19a7c3ced0a70f3172f6527f2707c2990d3172794448569a2b87c73695b91f69ff5ccbc5785509a37f3a2f2c8e.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}
