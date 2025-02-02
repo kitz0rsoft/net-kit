@@ -915,7 +915,7 @@ DESCRIPTION="An Amazon S3 compatible object storage server"
 HOMEPAGE="https://min.io/ https://github.com/minio/minio"
 SRC_URI="
 https://github.com/minio/minio/tarball/d66edc8971f181c01d4f036c33f6979d808a2401 -> minio-2025.01.20-d66edc8.tar.gz
-https://regen.mordor/17/7b/33/177b33250061912cb9104bb6b32a0fea4f70ea4fa49531002ff9ee8f838f9a8853a88d55f294136728aef01a56a243088a3f1f7596c8493b2c1692f97c58207d -> minio-2025.01.20-funtoo-go-bundle-c86c46551573fa6e98486906dc3875d303454d2252402a48997b010611e550a58863d2dd3fd79b2365d4daa66fad027778d60936e17ea72f5417278b7b6eaa9f.tar.gz"
+https://regen.mordor/7b/1f/ac/7b1face58179fd4113617790434974eac26a2f304da3c2cadfb914b9e8d75db3d306297eaac0991dfaac9b5d22342edb7933db02516d38a4e90782963972cd61 -> minio-2025.01.20-funtoo-go-bundle-c86c46551573fa6e98486906dc3875d303454d2252402a48997b010611e550a58863d2dd3fd79b2365d4daa66fad027778d60936e17ea72f5417278b7b6eaa9f.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}

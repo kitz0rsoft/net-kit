@@ -357,7 +357,7 @@ DESCRIPTION="Fast tool to manage MinIO clusters"
 HOMEPAGE="https://min.io/ https://github.com/minio/mc"
 SRC_URI="
 https://github.com/minio/mc/tarball/2b7b8a5d7de92aa83fe236db6552f48f1e3d2861 -> mc-2025.01.17-2b7b8a5.tar.gz
-https://regen.mordor/89/e3/a6/89e3a6b95801ff737d8cd5a4017e0945946f4aabdfabc18e32c4eb4228816dccf20815dd72fcd2643ff6b680fca2d9d0c6ad5c7f9e22ecf0aa7059a068a8a839 -> minio-client-2025.01.17-funtoo-go-bundle-ab30f0290e03a80fad724b2756d7fa303ddc43a5af594111913ce58d19634ec1bd4e16bdb7c2e506d040834a060916292e9fee8fae628bd63511232d900d80a3.tar.gz"
+https://regen.mordor/3e/d7/cc/3ed7ccd558b331a6d40db87bf9def7d6b0577ca5ce9d8d660444deb51c2e2f49f6e15c3726eb59758c53512e0d585a3e63cfcb4d159ae2790ef43c433d97fa94 -> minio-client-2025.01.17-funtoo-go-bundle-ab30f0290e03a80fad724b2756d7fa303ddc43a5af594111913ce58d19634ec1bd4e16bdb7c2e506d040834a060916292e9fee8fae628bd63511232d900d80a3.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}
