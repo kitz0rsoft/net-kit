@@ -467,6 +467,8 @@ EGO_SUM=(
 	"github.com/minio/minio-go/v7 v7.0.74"
 	"github.com/minio/minio-go/v7 v7.0.74/go.mod"
 	"github.com/minio/sha256-simd v0.1.1/go.mod"
+	"github.com/minio/xxml v0.0.3"
+	"github.com/minio/xxml v0.0.3/go.mod"
 	"github.com/mitchellh/go-homedir v1.1.0"
 	"github.com/mitchellh/go-homedir v1.1.0/go.mod"
 	"github.com/moby/sys/mountinfo v0.7.2"
@@ -535,8 +537,8 @@ EGO_SUM=(
 	"github.com/quic-go/quic-go v0.40.1/go.mod"
 	"github.com/rasky/go-xdr v0.0.0-20170124162913-1a41d1a06c93"
 	"github.com/rasky/go-xdr v0.0.0-20170124162913-1a41d1a06c93/go.mod"
-	"github.com/rclone/gofakes3 v0.0.3"
-	"github.com/rclone/gofakes3 v0.0.3/go.mod"
+	"github.com/rclone/gofakes3 v0.0.4"
+	"github.com/rclone/gofakes3 v0.0.4/go.mod"
 	"github.com/redis/go-redis/v9 v9.6.1"
 	"github.com/redis/go-redis/v9 v9.6.1/go.mod"
 	"github.com/relvacode/iso8601 v1.3.0"
@@ -1069,8 +1071,8 @@ EGO_SUM=(
 go-module_set_globals
 
 KEYWORDS="*"
-SRC_URI="https://github.com/rclone/rclone/tarball/18af2a7f991d8eb46c9c879cddc8185a735bda6b -> rclone-1.69.0-18af2a7.tar.gz
-https://regen.mordor/69/06/71/6906710ae28ab242ea2a69434587a95da9f1008cf665862b0c50c26ba0246d7e463c07c17f8c4dcf91ccc6d49e01a17500a33aa196f3539da3e43a1685075ad9 -> rclone-1.69.0-funtoo-go-bundle-02cfe741ffdd3431731fcb7218b2b7815c3f63ccd89e5cd4a0f4e82030fa77e996e560caf3637e08c7b0731c98856e2a096e37e6721a83350b4830af322b0e71.tar.gz"
+SRC_URI="https://github.com/rclone/rclone/tarball/7042caf96623b87a01267b6a19ecd0c28e4fc11e -> rclone-1.69.1-7042caf.tar.gz
+https://regen.mordor/34/14/d1/3414d1a85df64cf6bc8cd7d5e54546c89ce6391f5bbf6d42a6c3d028add936d6af2ece6750150f50eecd3767d6b2d193795c05512db28daea413f2548924d657 -> rclone-1.69.1-funtoo-go-bundle-b032a3bd3af64e764bfe7ef0f9cf2fb8a4aadea04960e225a2dc5e0e420210cfa579a1569be934299d0bfbc829cc59f1a58273741ad7eda1315a70cbf78632fd.tar.gz"
 
 DESCRIPTION="A program to sync files to and from various cloud storage providers"
 HOMEPAGE="https://rclone.org/"
