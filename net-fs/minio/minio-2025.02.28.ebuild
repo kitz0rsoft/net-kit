@@ -193,8 +193,8 @@ EGO_SUM=(
 	"github.com/go-asn1-ber/asn1-ber v1.5.7/go.mod"
 	"github.com/go-ini/ini v1.67.0"
 	"github.com/go-ini/ini v1.67.0/go.mod"
-	"github.com/go-jose/go-jose/v4 v4.0.4"
-	"github.com/go-jose/go-jose/v4 v4.0.4/go.mod"
+	"github.com/go-jose/go-jose/v4 v4.0.5"
+	"github.com/go-jose/go-jose/v4 v4.0.5/go.mod"
 	"github.com/go-ldap/ldap/v3 v3.4.8"
 	"github.com/go-ldap/ldap/v3 v3.4.8/go.mod"
 	"github.com/go-logr/logr v1.2.2/go.mod"
@@ -455,8 +455,8 @@ EGO_SUM=(
 	"github.com/minio/kms-go/kes v0.3.1/go.mod"
 	"github.com/minio/kms-go/kms v0.4.0"
 	"github.com/minio/kms-go/kms v0.4.0/go.mod"
-	"github.com/minio/madmin-go/v3 v3.0.91"
-	"github.com/minio/madmin-go/v3 v3.0.91/go.mod"
+	"github.com/minio/madmin-go/v3 v3.0.94"
+	"github.com/minio/madmin-go/v3 v3.0.94/go.mod"
 	"github.com/minio/mc v0.0.0-20250208210632-10c50368c526"
 	"github.com/minio/mc v0.0.0-20250208210632-10c50368c526/go.mod"
 	"github.com/minio/md5-simd v1.1.2"
@@ -726,8 +726,8 @@ EGO_SUM=(
 	"golang.org/x/crypto v0.17.0/go.mod"
 	"golang.org/x/crypto v0.19.0/go.mod"
 	"golang.org/x/crypto v0.21.0/go.mod"
-	"golang.org/x/crypto v0.33.0"
-	"golang.org/x/crypto v0.33.0/go.mod"
+	"golang.org/x/crypto v0.35.0"
+	"golang.org/x/crypto v0.35.0/go.mod"
 	"golang.org/x/exp v0.0.0-20190121172915-509febef88a4/go.mod"
 	"golang.org/x/lint v0.0.0-20181026193005-c67002cb31c3/go.mod"
 	"golang.org/x/lint v0.0.0-20190227174305-5b3e6a55c961/go.mod"
@@ -913,8 +913,8 @@ EGO_SKIP_TIDY=1
 DESCRIPTION="An Amazon S3 compatible object storage server"
 HOMEPAGE="https://min.io/ https://github.com/minio/minio"
 SRC_URI="
-https://github.com/minio/minio/tarball/7d4c64d0753217248679a93749daaa352ffe6fde -> minio-2025.02.18-7d4c64d.tar.gz
-https://regen.mordor/8d/50/68/8d50688409a879d5b6bf8f354d9db278b1447a3491ee07488353869aa5f8968e60fa1f7ca3f1ab595c068e9c9838a89f6f70dea510fa631b1776ada320358dc7 -> minio-2025.02.18-funtoo-go-bundle-f8b7b56a0e314ba56a83b8f52daf6e8e24f9980bde815a9766eae1a8fbadf621ded4e1e2131edd7c6462c94c0c18fdc0443eb7382568ba536850f9ca11331fb6.tar.gz"
+https://github.com/minio/minio/tarball/e56c69a9d192e22ab20632b051f73b116c9a10f7 -> minio-2025.02.28-e56c69a.tar.gz
+https://regen.mordor/ea/e7/f2/eae7f27d064c90e690ad7c0ee14bc780ac19537ec7ed2fac992d22c1823944f3bb684c67dc800915b9e682756d6d4d1d7b9b747ae3a33837adbd6ee2ec97074d -> minio-2025.02.28-funtoo-go-bundle-6e8c4ec383aec0a5b52d4bf9861d172be92f00c7c718e7ab71f0f0c5a139130cb8d8c459caf0e6bba2589aa5f21dbc2a613f515a71e46d41693bd3d8a2b2a41a.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}
