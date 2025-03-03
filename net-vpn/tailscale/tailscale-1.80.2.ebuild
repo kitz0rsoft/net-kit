@@ -3,20 +3,20 @@
 EAPI=7
 inherit go-module tmpfiles
 
-VERSION_SHORT="1.80.0"
-VERSION_LONG="1.80.0-t4f4686503"
+VERSION_SHORT="1.80.2"
+VERSION_LONG="1.80.2-t62b8bf6a0"
 
 DESCRIPTION="Tailscale vpn client"
 HOMEPAGE="https://tailscale.com"
-SRC_URI="https://github.com/tailscale/tailscale/tarball/4f4686503ae930740854e71efef4baa4ac815844 -> tailscale-1.80.0-4f46865.tar.gz
-https://regen.mordor/f8/50/03/f8500379cbe0f5f17946405503e77f92fb53613d9c92c3315c98f5ff0997c9ba44908b19ea01441cc58407e89511c76ffba14458e955760e52215d8e6ca24e33 -> tailscale-1.80.0-funtoo-go-bundle-cb95adae61a133280408a1b9f3db5e9b4272e02e73973fb5976513c8e97c52ceb0079bfe8ae968476e8a7c91c1aa4a4d0228ee6e0b4f03e23bbc5445506c0f9f.tar.gz"
+SRC_URI="https://github.com/tailscale/tailscale/tarball/62b8bf6a082c4bea1b9e6ee1962c81c6ee5263d3 -> tailscale-1.80.2-62b8bf6.tar.gz
+https://regen.mordor/c8/0f/b1/c80fb1482d554fa301c94ad80e69bfc3fc093624c0de66f016ac5c768bc99abd79598decb254788e8a6db72cdba49797c37fcf3f4f443ed0b5fc6243642b0f0e -> tailscale-1.80.2-funtoo-go-bundle-8385c1170bf5d5ffb4cab67a4f9d6f57ae9986877e5537c27579837f18b584026a8f14b8af01427293902741fe82110076904630cb58a6653d3c9b6313a181f5.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="*"
 
 RDEPEND="net-firewall/iptables"
-S="${WORKDIR}/tailscale-tailscale-4f46865"
+S="${WORKDIR}/tailscale-tailscale-62b8bf6"
 
 # This translates the build command from upstream's build_dist.sh to an
 # ebuild equivalent.
