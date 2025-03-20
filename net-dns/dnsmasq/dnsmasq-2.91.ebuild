@@ -8,7 +8,7 @@ inherit toolchain-funcs flag-o-matic lua-single systemd user
 
 DESCRIPTION="Small forwarding DNS server"
 HOMEPAGE="http://www.thekelleys.org.uk/dnsmasq/doc.html"
-SRC_URI="https://thekelleys.org.uk/dnsmasq/dnsmasq-2.90.tar.gz -> dnsmasq-2.90.tar.gz
+SRC_URI="https://thekelleys.org.uk/dnsmasq/dnsmasq-2.91.tar.gz -> dnsmasq-2.91.tar.gz
 "
 
 
